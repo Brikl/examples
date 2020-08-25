@@ -13,6 +13,7 @@ export interface DesignStudioProps {
   /** The sales channel id used to identify the react integration created in the sales channel. */
   salesChannelId?: string
 
+  view?: 'cart' | 'login' | 'checkout'
   productDesignId?: string
   externalProductId?: string
   externalCartId?: string
@@ -35,7 +36,7 @@ function getFrameSource(config: DesignStudioProps) {
 
   const queryOptions = {
     s: config.shopId,
-    v: null,
+    v: config.view,
     p: config.productId,
     sc: config.salesChannelId,
     ep: config.externalProductId,
