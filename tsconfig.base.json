@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@brikl/react-brikl": ["libs/react-brikl/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
