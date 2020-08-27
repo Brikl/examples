@@ -4,7 +4,7 @@ import { DesignStudio } from '@brikl/react-brikl'
 
 import './index.scss'
 
-export const Index = () => {
+export const Fullscreen = () => {
   return (
     <div className="container">
       <DesignStudio
@@ -16,4 +16,4 @@ export const Index = () => {
   )
 }
 
-export default Index
+export default Fullscreen
