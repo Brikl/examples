@@ -21,5 +21,19 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "gatsby": {
+      "tags": []
+    },
+    "react": {
+      "tags": []
+    },
+    "react-brikl": {
+      "tags": []
+    },
+    "gatsby-e2e": {
+      "tags": [],
+      "implicitDependencies": ["gatsby"]
+    }
+  }
 }
